@@ -129,7 +129,7 @@ detect_distro() {
 check_os_comp() {
     case "$OS" in
     ubuntu)
-        [ "$OS_VER_MAJOR" == "20" ] && SUPPORTED=true
+        [ "$OS_VER_MAJOR" == "22" ] && SUPPORTED=true
         ;;
     *)
         SUPPORTED=false
